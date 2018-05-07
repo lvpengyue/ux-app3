@@ -1,0 +1,51 @@
+.trouble-shooting {
+    overflow: scroll;
+
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    padding: 30px;
+
+    color: #595959;
+
+    -webkit-overflow-scrolling: touch;
+
+    h3 {
+        font-size: 36px;
+
+        padding: 20px 0;
+    }
+
+    hr {
+        color: #a5a5a5;
+    }
+
+    .section {
+        margin: 20px 0;
+
+        .big {
+            font-size: 32px;
+            font-weight: 800;
+
+            margin: 10px 0;
+        }
+
+        .small {
+            font-size: 28px;
+            line-height: 46px;
+        }
+    }
+
+    .toReport {
+        font-size: 32px;
+
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 10%;
+        padding: 20px;
+
+        border: none;
+        border-radius: 42px;
+        background-color: #12b8f6;
+    }
+}
